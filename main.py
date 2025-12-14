@@ -102,7 +102,7 @@ Always use clear numbered points. Be concise and helpful."""
         for i in range(0,max_iteration):
 
             response = client.models.generate_content(
-                model="gemini-2.5-flash",
+                model="gemini-2.5-flash-lite",
                 contents=message,
                 config = configi
             )
