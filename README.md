@@ -1,8 +1,8 @@
 # Python AI Agent
 
-A lightweight, autonomous AI agent powered by **Google Gemini 2.5 Flash**. This tool allows you to interact with your local file system, execute code, and perform complex tasks using natural language prompts.
+A lightweight, autonomous AI agent powered by **Google Gemini 2.5 Flash lite**. This tool allows you to interact with your local file system, execute code, and perform complex tasks using natural language prompts.
 
-## 🚀 Features
+## Features
 
 *   **Autonomous Task Execution**: Break down user prompts into actionable steps (Plan, execute, observe, correct).
 *   **File System Operations**:
@@ -13,7 +13,7 @@ A lightweight, autonomous AI agent powered by **Google Gemini 2.5 Flash**. This 
     *   `run_file`: Execute Python scripts directly in the environment and capture output.
 *   **Smart Context**: Uses a system prompt to enforce developer-like behavior ("Fix bugs", "Analyze code", "Create features").
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
@@ -28,7 +28,7 @@ A lightweight, autonomous AI agent powered by **Google Gemini 2.5 Flash**. This 
 └── .env                     # Configuration file for API keys.
 ```
 
-## 🛠️ Usage
+## Usage
 
 This project uses `uv` for dependency management (or standard python).
 
@@ -52,7 +52,7 @@ python main.py "Check the current directory and list all .py files"
 ### 3. Developer Mode
 The agent has a flag (in code) or specific behavior to act as a developer. By default, it follows the system prompt in `main.py` to act as a helpful coding assistant.
 
-## ⚙️ Configuration
+## Configuration
 
 *   **Working Directory**: Currently, the agent is configured to operate within the `calculator/` directory by default. You can change this in `call_function.py`:
     ```python
@@ -60,7 +60,7 @@ The agent has a flag (in code) or specific behavior to act as a developer. By de
     working_directory = "calculator" # Change this to "." for root or any other path
     ```
 
-## 🧠 Model
+## Model
 
 The agent acts as a loop:
 1.  **User Prompt** -> **Gemini API**

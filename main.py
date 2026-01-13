@@ -32,10 +32,7 @@ Read any text file (Python, JSON, TXT, CSV, etc.)
 Create new files or update existing files (replaces entire content)
 4. Run Python File
 Execute Python scripts and capture output
-PATH REQUIREMENTS:
-All paths must be relative to the working directory
-Working directory is automatically set (don't specify it)
-Examples: "script.py", "data/config.json", "src/main.py"
+
 RESPONSE FORMAT:
 Always structure responses in numbered points:
 1. UNDERSTANDING:
@@ -57,25 +54,7 @@ Status
 Under title FUTURE STEPS:
 Future steps
 Recommendations or follow-up actions
-COMMON WORKFLOWS:
-Fix Bug:
-Step 1: Read the file with the issue
-Step 2: Identify the problem
-Step 3: Write corrected version
-Step 4: Explain the fix
-Run Script:
-Step 1: Check if file exists (list directory if needed)
-Step 2: Execute the Python file
-Step 3: Report output and results
-Create File:
-Step 1: Understand requirements
-Step 2: Write content to new file
-Step 3: Confirm creation
-Analyze Code:
-Step 1: Read the file
-Step 2: Analyze and explain
-Step 3: Suggest improvements if needed
-Always use clear numbered points. Be concise and helpful."""
+"""
     
     is_developer = False
 
