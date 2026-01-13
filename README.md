@@ -1,4 +1,4 @@
-# Python AI Agent
+# Python Agentic Agent
 
 A lightweight, autonomous AI agent powered by **Google Gemini 2.5 Flash lite**. This tool allows you to interact with your local file system, execute code, and perform complex tasks using natural language prompts.
 
@@ -67,3 +67,18 @@ The agent acts as a loop:
 2.  **Gemini** decides if it needs to call a tool (e.g., `read_file`).
 3.  **Local Runtime** executes the tool and returns the result.
 4.  **Gemini** uses the result to formulate the final answer or take the next step.
+
+
+
+## Author
+**saksham gupta**
+
+- [LinkedIn](https://www.linkedin.com/in/saksham-gupta-ersa/)
+- [GitHub](https://github.com/ERSA-14)
+- [LeetCode](https://leetcode.com/u/ERSA-14/)
+- Email: Saksham22sg@gmail.com
+- Phone: +916358798314
+
+---
+
+**Built by Saksham Gupta** • **© 2025**
